@@ -61,13 +61,7 @@ let arr_3 = [1, 2, 3, 4, 5]
 let d = arr_3.map({"\($0)ff"})
 print(d)
 
-let e = try! arr_3.filter({ (a) -> Bool in
-    return a > 6
-}) catch let err as NSError {
-    print(err)
-}
 
-print(e)
 
 
 
